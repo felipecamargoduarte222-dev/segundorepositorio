@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*Garante que a borda e o padding nao aumentem*/
+}
+
+body {
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  background-color: #f4f7f6;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/*Cabecalho HEADER)*/
+
+header {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 30px 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+/*NAVEGACAO*/
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover{
+  background-color: #ffcc00;
+  color: #000000;
+  transform: translateY(-3px);
+}
+
+/*CONTEUDO PRINCIPAL*/
+
+main{
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/*ARTIGOS e SEÇÕES*/
+
+article, section{
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+article h2, section h3{
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+article img{
+  max-width: 50%;
+  height: auto;
+  border-radius: 5%;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+/*LISTAS E OUTRAS NOTÍCIAS*/
+
+section ul{
+  list-style: none;
+}
+
+section ul li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+section ul li:last-child{
+  border-bottom: none;
+}
+
+/*RODAPE*/
+footer{
+  background-color: #222222;
+  color: #cccccc;
+  text-align: center;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+}
+
+footer a{
+  color: #ff2600;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
