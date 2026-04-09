@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Notícia - Portal Camargo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Portal Camargo</h1>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+
+    <article>
+        <h2>Deslizamentos em Juiz de Fora causam inúmeras vítimas e desaparecidos</h2>
+
+        <p>
+            Fortes chuvas atingiram a região de Juiz de Fora, causando deslizamentos em áreas residenciais.
+            Equipes de resgate seguem trabalhando para localizar desaparecidos e prestar apoio às famílias.
+        </p>
+    </article>
+
+</main>
+
+<footer>
+    <hr>
+    <p>Desenvolvido por: Felipe Camargo - 2026</p>
+</footer>
+
+</body>
+</html>
