@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Notícia - Portal Camargo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Portal Camargo</h1>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="contato.html">Contato</a>
+    </nav>
+</header>
+
+<main>
+
+    <article>
+        <h2>Copa Libertadores será transmitida na Paramount+</h2>
+
+        <p>
+            A competição sul-americana de futebol terá transmissão exclusiva na plataforma de streaming Paramount+,
+            ampliando o acesso dos torcedores aos jogos, os times classificados são: Flamengo, Cruzeiro, Corinthians, Palmeiras, Fluminense e Mirassol.
+        </p>
+
+    </article>
+
+</main>
+
+<footer>
+    <hr>
+    <p>Desenvolvido por: Felipe Camargo - 2026</p>
+</footer>
+
+</body>
+</html>
